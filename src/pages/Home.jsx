@@ -12,7 +12,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import ListingItem from "../components/ListingItem";
 import Slider from "../components/Slider";
-import { db } from "../firebase";
+import { db } from "../Firebase";
 
 export default function Home() {
   // Offers
