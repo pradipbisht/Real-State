@@ -15,9 +15,10 @@ import {
   updateDoc,
   serverTimestamp,
 } from "firebase/firestore"; // Import Firestore functions for document management.
-import { db } from "../firebase"; // Import Firestore database instance.
+
 import Spinner from "../components/Spinner"; // Import Spinner component for loading indication.
 import { toast } from "react-toastify"; // Import toast for notifications.
+import { db } from "../Firebase";
 
 export default function EditListing() {
   const [loading, setLoading] = useState(false); // State for loading indication.
