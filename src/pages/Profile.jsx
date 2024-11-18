@@ -12,7 +12,7 @@ import {
 } from "firebase/firestore"; // Import Firestore functions
 import { useNavigate, Link } from "react-router-dom"; // Import navigation and routing functions
 import { toast } from "react-toastify"; // Import toast notifications
-import { db } from "../firebase"; // Import Firestore database instance
+import { db } from "../Firebase";
 import { FcHome } from "react-icons/fc"; // Import home icon for UI
 import ListingItem from "../components/ListingItem"; // Import ListingItem component
 

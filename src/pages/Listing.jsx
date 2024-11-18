@@ -1,12 +1,12 @@
 import { doc, getDoc } from "@firebase/firestore";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import { db } from "../firebase";
 import Spinner from "../components/Spinner";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, EffectFade, Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import { FaShare } from "react-icons/fa";
+import { db } from "../Firebase";
 
 export default function Listing() {
   const params = useParams(); // Correctly get the URL parameters

@@ -9,9 +9,9 @@ import {
   startAfter,
   where,
 } from "firebase/firestore";
-import { db } from "../firebase";
 import Spinner from "../components/Spinner";
 import ListingItem from "../components/ListingItem";
+import { db } from "../Firebase";
 // import { async } from "@firebase/util";
 
 export default function Offers() {

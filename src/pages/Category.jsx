@@ -9,10 +9,10 @@ import {
   startAfter,
   where,
 } from "firebase/firestore";
-import { db } from "../firebase";
 import Spinner from "../components/Spinner";
 import ListingItem from "../components/ListingItem";
 import { useParams } from "react-router-dom";
+import { db } from "../Firebase";
 
 export default function Category() {
   const [listings, setListings] = useState(null);

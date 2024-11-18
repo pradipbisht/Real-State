@@ -8,9 +8,9 @@ import {
   getDownloadURL,
 } from "firebase/storage"; // Import Firebase Storage functions.
 import { addDoc, collection, serverTimestamp } from "firebase/firestore"; // Import Firestore functions to add documents and generate timestamps.
-import { db } from "../firebase"; // Import the Firestore database instance.
 import Spinner from "../components/Spinner"; // Import Spinner component for loading indication.
 import { toast } from "react-toastify"; // Import toast for displaying notifications.
+import { db } from "../Firebase";
 
 export default function CreateListing() {
   const [loading, setLoading] = useState(false); // State to manage loading indicator.
