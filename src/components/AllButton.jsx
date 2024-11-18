@@ -2,8 +2,8 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { doc, getDoc, serverTimestamp, setDoc } from "firebase/firestore";
 import { FcGoogle } from "react-icons/fc";
 import { toast } from "react-toastify";
-import { db } from "../Firebase";
 import { useNavigate } from "react-router-dom";
+import { db } from "../Firebase";
 export default function AllButton() {
   const navigate = useNavigate();
   async function onGoogleClick() {
